@@ -1,14 +1,13 @@
 # %%
+import numpy as np
+import pandas as pd
+
 from pathlib import Path
 
 THIS_FILE = Path(__file__)
 THIS_DIR = THIS_FILE.parent
 INPUT_FILE = THIS_DIR / "puzzle.data"
 TEST_FILE = THIS_DIR / "test.data"
-
-# %%
-import numpy as np
-import pandas as pd
 
 # %%
 datos = pd.read_csv(
